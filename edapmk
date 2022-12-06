@@ -1,0 +1,31 @@
+Selection Sort Projesi (Proje 1)
+
+Soru 1: [22,27,16,2,18,6] Insertion Sort’a göre sırala
+Cevap 1: İlk eleman 22den başlayarak kendinden küçük eleman olup olmadığını dizide araştırırız. Var ise 22 ve kendinden küçük elemanın yerini değiştiririz. Başa alınan sayı dizideki en küçük sayı olana kadar bu işlemi yapmaya devam ederiz. sırasıyla diğer elemanlara da yaptıktan sonra en son sıralı bir veriye ulaşmış oluruz.
+Adım1:   22,27,16,2,18,6 
+Adım2:   16,27,22,2,18,6
+Adım3:   2,27,22,16,18,6  (2 en küçük olduğu için ikinci elemana geçeriz.)
+Adım4:   2,22,27,16,18,6
+Adım5:   2,16,27,22,18,6
+Adım6:   2,6,27,22,18,16
+Adım7:   2,6,22,27,18,16
+Adım8:   2,6,18,27,22,16
+Adım9:   2,6,16,27,22,18
+Adım10:  2,6,16,22,27,18
+Adım11:  2,6,16,18,27,22
+Adım12:  2,6,16,18,22,27
+
+Soru 2: Big-O gösterimini yazınız.
+Cevap 2: O(n^2) olur.
+
+Soru 3: Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? 
+Cevap 3: (2,6,16,18,22,27) ortalarda bulunduğu için Average Case olur.
+
+Soru 4: [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+Cevap 4:
+Adım1: 7,3,5,8,2,9,4,15,6  (7den başlayarak en küçük elemanları karşılaştırdım 2 den küçük olmadığı için 2yi başa alırım.)
+Adım2: 2,3,5,8,7,9,4,15,6  (3den küçük elaman yok diğer elemana geçerim.)
+Adım3: 2,3,4,8,7,9,5,15,6
+Adım4: 2,3,4,5,7,9,8,15,6 
+
+https://app.patika.dev/pmkeda
